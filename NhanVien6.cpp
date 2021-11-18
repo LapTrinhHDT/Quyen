@@ -158,9 +158,11 @@ public:
 	Nguoi(string Ma, string HoTen, int Tuoi, string GioiTinh, string DiaChi, float Luong, float TienThuong);
 	Nguoi(const Nguoi &nguoi);
 	~Nguoi();
+	//ham virtual
 	virtual void Nhap();
 	virtual void Xuat();
-	virtual float TinhLuong() = 0;
+	// ham pure virtual
+	virtual float TinhLuong() = 0; 
 	string getMa(){
 		return Ma;
 	}
