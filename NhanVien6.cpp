@@ -339,7 +339,7 @@ public:
 	void Nhap();
 	void Xuat();
 	float TinhLuong();// muc luong co ban cua nhan vien = luong theo gio* 8 time;
-	// ban 
+	//lop ban 
 	friend class QuanLiNhanVien;
 }; 
 
